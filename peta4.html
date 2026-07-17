@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reservation Form</title>
+</head>
+<body bgcolor="baa8d6">
+<font color="422256"></font>
+</head>
+<body>
+  <h2>Reservation Form</h2>
+</body>
+<form>
+  <label form="name">FULL NAME:</label><br>
+  <input type="text" id="name" name="name" placeholder="Last name,First name" required><br><br>
+  
+  <label for="email">EMAIL:</label><br>
+  <input type="email" id="email" name="name"  placeholder="Email" required><br><br>
+  
+  <label for="cellphone no.">CELLPHONE NO.:</label><br>
+  <input type="number" size="30" placeholder="(+63 90 0000 0000)"><br><br>
+  
+  <label>GENDER:</label><br>
+  <input type="radio" id="male" id="gender" value="male">
+  <label for="male">MALE</label>
+  <br>
+  <input type="radio" id="Female" name="gender" value="Female"
+    <label for="female">FEMALE</label>
+    <br>
+    <input type="radio" id="Non-Binary" name="gender" value="Non-Binary"
+      <label for="Non-Binary">NON-BINARY</label><br><br>
+      
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" required><br>
+      
+     
+      
+        <br> <h2>Additional Details</h2>
+        
+      
+      <h4>Departure Date:</h4>  
+      <input type="date">
+      <h4>Return Date:</h4>
+      <input type="date">
+      <br><br><br>
+      <input type="submit" Value="Reserve">
+      
+      
+    </form>
+  </body>
+</html>
